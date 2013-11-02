@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+	<head>
+    <meta charset="utf-8" >
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<script type="text/javascript" src="jquery.jpanelmenu.min.js"></script>
+	<link rel='stylesheet' type='text/css' href='style.css' />
+<header class="main">
+        <div id="zaBar"><div id="zaTrigger"><div class="menu-trigger"><i class="icon-list icon-large"></i></div>
+        <ul id="menu" style="display: none;">
+            <li><a href="home.php">الصفحة الأولى</a></li>
+            <li><a href="profile.php?id=24">علوم الحاسب</a></li>
+            <li><a href="profile.php?id=20">فنون وتصميم</a></li>
+            <li><a href="profile.php?id=22">تخصصات الأعمال</a></li>
+            <li><a href="profile.php?id=21">تخصصات الإدارة</a></li>
+            <li><a href="profile.php?id=23">القانون</a></li>
+            <li><a href="profile.php?id=18">مجموعة النقاش العامة</a></li>
+            <li><a href="profile.php?id=17">مجموعة الطلاب الجدد</a></li>
+            <li><a href="about.php">عن البرنامج</a></li>
+        </ul>
+</header>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var jPM = $.jPanelMenu({
+			
+			direction: 'right'
+			});
+			jPM.on();
+        $('.menu-trigger').trigger('click');
+    });
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
